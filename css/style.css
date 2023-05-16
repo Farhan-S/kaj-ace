@@ -206,17 +206,16 @@
     height: 15px !important;
     width: 15px !important;
     border-radius: 50%;
-    border: 3px solid #d33724 !important;
+    border: 3px solid #dddada !important;
     background-color: transparent !important;
 }
 .carIndicator.active
 {
-    background-color: #d33724 !important;
+    background-color: #dddada !important;
 }
 .carControl:hover
 {
-    background-color: #d338248d;
-    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 .carCaption
 {
@@ -281,4 +280,12 @@
 {
     font-size: 18px;
     margin: 20px 0;
+}
+
+/* service pictures */
+
+.serviceUp1
+{
+    height: 300px;
+    width: 300px;
 }
