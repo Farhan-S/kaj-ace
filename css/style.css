@@ -282,13 +282,7 @@
     margin: 20px 0;
 }
 
-/* service pictures */
 
-.serviceUp1
-{
-    height: 300px;
-    width: 300px;
-}
 
 /* This is from Farhan Sadik */
 .wraper{
@@ -503,4 +497,46 @@
 }
 .icon-close:hover{
     transform: translateY(3px);
+}
+
+/* farhan sadik end */
+
+/* service pictures */
+.serviceMid
+{
+    width: 80%;
+    margin: 50px auto;
+}
+.serviceText
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.serviceUp, .serviceDown
+{
+    display: flex;
+}
+.serviceUpPic, .serviceDownPic
+{
+    height: 250px;
+    width: 380px;
+    margin: 20px;
+
+}
+.serviceUpPic img
+{
+
+    height: 100%;
+    width: 100%;
+
+}
+.serviceDownPic img
+{
+    height: 100%;
+    width: 100%; 
+}
+.serviceUpPic:hover
+{
+    box-shadow: 20px 20px 50px 15px grey;
 }
