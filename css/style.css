@@ -103,7 +103,10 @@
     color: #fff !important;
     font-size: 21px !important;
 }
-
+.loginTop:hover
+{
+    transform: translateY(5px);
+}
 .header .topSearchBox
 {
     width: 100%;
@@ -133,20 +136,40 @@
 }
 .SearchBoxMid button
 {
-    height: 50px;
-    width: 250px;
+    height: 60px;
+    width: 280px;
     display: block;
     margin: 30px 0;
     background-color: #d33724;
-    font-size: 20px;
+    border: none;
+    font-size: 22px;
     color: #f8f8f8;
     border-radius: 5px;
 }
-.SearchBoxMid button:hover
+.workerBtn
 {
-    width: 300px;
-    transition: 1s;
+    background-color: transparent !important;
+    border: 2px solid #d33724 !important;
+    color: #d33724 !important;
+}
+.workerBtn:hover
+{
+    background-color: #d33724 !important;
+    color: #f8f8f8 !important;
+}
+.kormiBtnIcon
+{
+    margin-right: 10px;
+}
+.kormiBtnArrow
+{
+    margin-left: 10px;
+}
+.SearchBoxMid button:hover .kormiBtnArrow
+{
     
+    transform: translate(10px);
+    transition: 0.5s;
 }
 .OurServieses .servicesMid
 {
@@ -196,6 +219,9 @@
     text-align: center;
     border: 2px solid #d33724;
 }
+.workType:hover{
+    transform: translateY(5px);
+}
 .carousel img
 {
     width: 100%;
@@ -237,6 +263,7 @@
     height: 45px;
     width: 120px;
     background-color: #d85517;
+    border: none;
     color: #f8f8f8;
     border-radius: 8px;
     font-size: 1.1rem;
@@ -502,6 +529,11 @@
 /* farhan sadik end */
 
 /* service pictures */
+.servicePhotos
+{
+    background-color: #efefef;
+    padding: 1px 0;
+}
 .serviceMid
 {
     width: 80%;
@@ -512,6 +544,13 @@
     text-align: center;
     margin-top: 100px;
     margin-bottom: 80px;
+}
+.serviceText h1
+{
+    color: #f66f03;
+    border-top: 2px solid #f66f03;
+    border-bottom: 2px solid #f66f03;
+    padding: 5px 0;
 }
 .serviceUp, .serviceDown
 {
@@ -539,4 +578,21 @@
 .serviceUpPic:hover
 {
     box-shadow: 20px 20px 50px 15px grey;
+}
+.serviceDownPic:hover
+{
+    box-shadow: 20px 20px 50px 15px grey;
+}
+.servTextIcon1
+{
+    margin-right: 20px;
+}
+.servTextIcon2
+{
+    margin-left: 20px;
+}
+.seviceAllPhotos
+{
+    border:2px solid #f66f03;
+    padding: 5px;
 }
